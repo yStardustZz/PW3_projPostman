@@ -13,10 +13,10 @@ namespace WebApplication1.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class db_221256Entities : DbContext
+    public partial class p_etec_2024Entities1 : DbContext
     {
-        public db_221256Entities()
-            : base("name=db_221256Entities")
+        public p_etec_2024Entities1()
+            : base("name=p_etec_2024Entities1")
         {
         }
     
@@ -25,6 +25,6 @@ namespace WebApplication1.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<tb_usuario> tb_usuario { get; set; }
+        public virtual DbSet<tb_filmes> tb_filmes { get; set; }
     }
 }

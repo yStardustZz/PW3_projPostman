@@ -12,11 +12,12 @@ namespace WebApplication1.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class tb_usuario
+    public partial class tb_filmes
     {
-        public int Código { get; set; }
-        public string Email { get; set; }
-        public string Senha { get; set; }
-        public Nullable<System.DateTime> UltimoAcesso { get; set; }
+        public int id_filme { get; set; }
+        public string nome_filme { get; set; }
+        public string genero_filme { get; set; }
+        public string prod_filme { get; set; }
+        public Nullable<System.DateTime> ano_filme { get; set; }
     }
 }

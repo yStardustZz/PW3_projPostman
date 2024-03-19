@@ -163,28 +163,28 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\UsuarioController.cs" />
+    <Compile Include="Controllers\tb_filmesController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\EntityUsuario.Context.cs">
+    <Compile Include="Models\ModelFilme.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EntityUsuario.Context.tt</DependentUpon>
+      <DependentUpon>ModelFilme.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\EntityUsuario.cs">
+    <Compile Include="Models\ModelFilme.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EntityUsuario.tt</DependentUpon>
+      <DependentUpon>ModelFilme.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\EntityUsuario.Designer.cs">
+    <Compile Include="Models\ModelFilme.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EntityUsuario.edmx</DependentUpon>
+      <DependentUpon>ModelFilme.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Models\tb_usuario.cs">
-      <DependentUpon>EntityUsuario.tt</DependentUpon>
+    <Compile Include="Models\tb_filmes.cs">
+      <DependentUpon>ModelFilme.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -197,15 +197,15 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Models\EntityUsuario.Context.tt">
+    <Content Include="Models\ModelFilme.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>EntityUsuario.Context.cs</LastGenOutput>
-      <DependentUpon>EntityUsuario.edmx</DependentUpon>
+      <DependentUpon>ModelFilme.edmx</DependentUpon>
+      <LastGenOutput>ModelFilme.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\EntityUsuario.tt">
+    <Content Include="Models\ModelFilme.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>EntityUsuario.edmx</DependentUpon>
-      <LastGenOutput>EntityUsuario.cs</LastGenOutput>
+      <DependentUpon>ModelFilme.edmx</DependentUpon>
+      <LastGenOutput>ModelFilme.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -228,12 +228,12 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
-    <EntityDeploy Include="Models\EntityUsuario.edmx">
+    <EntityDeploy Include="Models\ModelFilme.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>EntityUsuario.Designer.cs</LastGenOutput>
+      <LastGenOutput>ModelFilme.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\EntityUsuario.edmx.diagram">
-      <DependentUpon>EntityUsuario.edmx</DependentUpon>
+    <Content Include="Models\ModelFilme.edmx.diagram">
+      <DependentUpon>ModelFilme.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
