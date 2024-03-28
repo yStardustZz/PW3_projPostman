@@ -10,6 +10,11 @@ namespace WebApplication1
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js"));
+            bundles.Add(new ScriptBundle("~/bundles/filmes").Include(
+                "~/Scripts/knockout~{version.js",
+                "~/Scripts/ko/usuario.js"
+
+                ));
 
             // Use a versão em desenvolvimento do Modernizr para desenvolver e aprender com ela. Após isso, quando você estiver
             // pronto para a produção, utilize a ferramenta de build em https://modernizr.com para escolher somente os testes que precisa.
